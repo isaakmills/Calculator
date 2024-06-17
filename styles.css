@@ -1,16 +1,28 @@
 
-.readOut{
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.readOutContainer{
     display: flex;
     background-color: #feb47b;
     border: 2px solid;
     border-radius: 5px;
     height: 75px;
     font-size: 2rem;
-    justify-content: end;
-    align-items: center;
-    padding-right: 10px;
-    
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+.result{
+    padding: 20px;
+}
+.readOut{
+    padding: 20px;
+}
+
 .container{
     margin: 100px;
     display: flex;
